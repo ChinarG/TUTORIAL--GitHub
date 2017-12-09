@@ -5,8 +5,8 @@
 | 鸭梨  | 1600  |  5   |
 
 添加一段代码
-```
-<script>
+```lua
+--<script>
 function browserRedirect() {
     var sUserAgent = navigator.userAgent.toLowerCase();
     var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
@@ -24,7 +24,7 @@ function browserRedirect() {
     }
 }
 browserRedirect();
-</script>
+--</script>
 
 ```
 
